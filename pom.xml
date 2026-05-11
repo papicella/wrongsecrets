@@ -68,7 +68,7 @@
     <io.netty.version>4.2.12.Final</io.netty.version>
     <java.version>25</java.version>
     <jquery.version>3.7.1</jquery.version>
-    <jruby.version>10.0.5.0</jruby.version>
+    <jruby.version>10.1.0.0</jruby.version>
     <lombok.version>1.18.46</lombok.version>
     <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
     <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
@@ -620,8 +620,8 @@
               <includes>
                 <include>.gitignore</include>
               </includes>
-              <trimTrailingWhitespace></trimTrailingWhitespace>
-              <endWithNewline></endWithNewline>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <tabs>true</tabs>
                 <spacesPerTab>4</spacesPerTab>
@@ -633,7 +633,7 @@
               <include>src/main/java/**/*.java</include>
               <include>src/test/java/**/*.java</include>
             </includes>
-            <removeUnusedImports></removeUnusedImports>
+            <removeUnusedImports/>
             <googleJavaFormat>
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
@@ -713,7 +713,7 @@
         </os>
       </activation>
       <properties>
-        <script.extension></script.extension>
+        <script.extension/>
       </properties>
     </profile>
   </profiles>
